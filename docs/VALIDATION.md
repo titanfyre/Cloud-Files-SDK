@@ -1,6 +1,6 @@
 # Validation and boundaries
 
-Cloud Files SDK 0.1.0 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64 using documented
+Cloud Files SDK 0.1.1 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64 using documented
 CFAPI and built-in cldflt. It does not contain a custom Cloud Files filter.
 
 ## Offline checks
@@ -21,11 +21,21 @@ fixtures, package removal and required normal restarts. The guest was restored
 to its original checkpoint and finished Off; host boot/security policy was not
 changed. These results cover that candidate and fixture, not every Windows PC.
 
-New kernel candidates used guest-only test signing. Independent fixture drivers
-retained their verified Microsoft signatures. This is functional qualification,
-not a Microsoft attestation/HLK/WHQL claim. Returned Microsoft packages and the
-final embedded setup still require their own trust, membership and installation
-checks before installable binaries are distributed.
+The original candidate completed its pre-submission tests with guest-only test
+signing. The returned Microsoft packages additionally passed kernel-policy trust,
+catalog membership and unchanged Authenticode-content checks against that exact
+candidate. Both final UI and console setups were inspected as data: their embedded
+drivers and applications match the reviewed release files byte for byte.
+
+The returned packages then completed normal and targeted Driver Verifier
+campaigns in the owned Windows 10 build 19045 guest with **test signing disabled**.
+The four actual console installers performed installation and uninstallation;
+the same native functional fixtures, genuine signed full-mode grants and owned
+interactive desktop test passed. Exact installed SYS hashes, package removal,
+evidence collection and restoration to the original Off guest were verified.
+This establishes the documented evaluation scope, not HLK/WHQL certification or
+qualification of Windows 11, Secure Boot/HVCI and arbitrary physical hardware.
+The application bundle is 0.1.1; signed driver package versions remain 0.1.0.0.
 
 ## Demo and activation qualification
 
@@ -64,8 +74,8 @@ cleanup. Namespace refusal was exercised outside the connected provider process;
 CFAPI permits the sync engine's own maintenance. Counters and assertion totals
 are functional evidence, not storage/network throughput or latency benchmarks.
 
-The frozen SDK implementation SHA256 is 7c32ec47318ad6eac94e3c98221b632af6c42704bc27663179f381ed894c914d.
-The shared production runtime input SHA256 is 5ee4e64afeffe527a02b74fc50bdcc7eed4808e6e3ec9a3db028039057c6bf80.
+The pre-signature qualified SDK implementation SHA256 is 7c32ec47318ad6eac94e3c98221b632af6c42704bc27663179f381ed894c914d.
+The unsigned qualification runtime input SHA256 is 5ee4e64afeffe527a02b74fc50bdcc7eed4808e6e3ec9a3db028039057c6bf80.
 
 Windows 11, Secure Boot/HVCI, physical storage variation, antivirus/filter
 coexistence, suspend/resume, abrupt power loss, low resources and long workloads

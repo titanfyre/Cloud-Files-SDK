@@ -14,10 +14,16 @@ Live mode requires the shared Titan SDK Runtime;
 Windows supplies the actual Cloud Files filter, `cldflt`. Signed-runtime delivery
 and completed live qualification are described in [validation](docs/VALIDATION.md).
 
+The release ZIP contains the application, CLI, example, both single-file setup
+executables and matching opaque Microsoft-signed packages under `Driver/`.
+Microsoft signing covers the driver packages; the user-mode EXEs are separate.
+The supported scope and executed qualification are documented in
+[validation](docs/VALIDATION.md).
+
 ## Install and try
 
 1. Download the complete ZIP from [Releases](https://github.com/titanfyre/Cloud-Files-SDK/releases), extract it and run `CloudFilesStudio.exe --preview` for an offline tour. Preview creates no cloud root and does not open the runtime.
-2. For live mode, use the complete **Microsoft-signed runtime** bundle when available. Run `CloudFilesSetup.exe`, choose **Install / reinstall**, and restart Windows only if setup requests it. A source build without that signed package refuses installation.
+2. For live mode, use the complete **Microsoft-signed runtime** bundle in this release ZIP. Run `CloudFilesSetup.exe`, choose **Install / reinstall**, and restart Windows only if setup requests it. A source build without that signed package refuses installation.
 3. Open **Cloud Files Studio** as administrator. Select a backing folder containing regular local files and a separate, empty NTFS folder for cloud files. Choose **Connect**. The first live use starts this product's one-hour demo for the current Windows boot.
 4. Open the cloud folder in Explorer. File contents hydrate when another application reads them; the logical size is available before all bytes are cached.
 5. **Disconnect** closes the provider. Hydrated bytes remain available locally; uncached reads need the provider. Reconnect with the same unchanged backing snapshot, or choose **Release placeholders** after disconnecting when finished. Release keeps hydrated files and Windows removes dehydrated placeholders. The backing folder is unchanged.
@@ -130,8 +136,8 @@ Use Visual Studio 2022 Desktop C++, CMake and the Windows SDK on x64.
 ```powershell
 .\Build.ps1
 .\Build.ps1 -Asan
-# Embed only the independently supplied trusted runtime package:
-.\Build.ps1 -RuntimePackageDirectory C:\Signed\TitanSdkRuntime
+# Rebuild setup with the signed runtime included in the release ZIP:
+.\Build.ps1 -RuntimePackageDirectory .\Driver\TitanSdkRuntime
 ```
 
 Outputs are in `obj/Build/bin/Release`. Offline tests use temporary ordinary
