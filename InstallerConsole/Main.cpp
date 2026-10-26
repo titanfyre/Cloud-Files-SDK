@@ -1,0 +1,3 @@
+#include "../InstallerUI/Setup.h"
+#include <iostream>
+int wmain(int argc,wchar_t** argv){if(argc!=2||(wcscmp(argv[1],L"/install")&&wcscmp(argv[1],L"/uninstall")&&wcscmp(argv[1],L"/status"))){std::wcout<<L"CloudFilesSetupConsole.exe /install | /uninstall | /status\n";return 2;}if(!wcscmp(argv[1],L"/status")){std::wcout<<(ProductSetup::Installed()?L"Installed\n":L"Not installed\n");return 0;}auto result=ProductSetup::Execute(!wcscmp(argv[1],L"/install"));std::wcout<<result.detail<<L"\n";if(result.error)std::wcout<<L"Windows error: "<<result.error<<L"\n";if(result.reboot)std::wcout<<L"Restart Windows manually to complete the operation.\n";return result.error?static_cast<int>(result.error):result.reboot?3010:0;}
