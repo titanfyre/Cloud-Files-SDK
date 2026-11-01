@@ -2,6 +2,17 @@
 
 **Expose your own read-only storage backend through ordinary Windows files.**
 
+<!-- full-version-contact:start -->
+> [!IMPORTANT]
+> **Get the full version without demo restrictions**
+>
+> **Discord username: `titancsa`**
+>
+> Open Discord, choose **Friends > Add Friend**, enter **`titancsa`**, then send a direct message. Ask for the **full version without the demo time limit**, and mention **Cloud Files SDK**.
+>
+> Tell me whether you need personal use, business integration or OEM redistribution, and ask for pricing and license / activation instructions.
+<!-- full-version-contact:end -->
+
 Create a Cloud Files sync root, publish a bounded snapshot of filenames and let
 Windows request bytes when an application opens a file. The included backend
 reads a separate local directory. A C++ callback can supply data from another
