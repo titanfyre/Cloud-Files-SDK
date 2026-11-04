@@ -1,0 +1,30 @@
+[Version]
+Signature="$WINDOWS NT$"
+Class=System
+ClassGuid={4D36E97D-E325-11CE-BFC1-08002BE10318}
+Provider=%Provider%
+CatalogFile=TitanSdkDemoRuntime.cat
+DriverVer=11/04/2026,0.0.0.1
+PnpLockdown=1
+[DestinationDirs]
+DriverFiles=13
+[SourceDisksNames]
+1=%Media%
+[SourceDisksFiles]
+TitanSdkDemoRuntime.sys=1
+[DefaultInstall.NTamd64]
+CopyFiles=DriverFiles
+[DriverFiles]
+TitanSdkDemoRuntime.sys
+[DefaultInstall.NTamd64.Services]
+AddService=TitanSdkDemoRuntime,,Service
+[Service]
+DisplayName=%Name%
+ServiceType=1
+StartType=3
+ErrorControl=1
+ServiceBinary=%13%\TitanSdkDemoRuntime.sys
+[Strings]
+Provider="Titanfyre"
+Name="Titan SDK Demo Runtime Proposal"
+Media="Titan SDK Demo Runtime Proposal installation media"

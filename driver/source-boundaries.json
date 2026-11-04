@@ -1,0 +1,178 @@
+﻿{
+    "Schema":  1,
+    "Repo":  "titanfyre/Cloud-Files-SDK",
+    "PreparedVariant":  "New demo-only source preview; distinct from current signed release",
+    "CopiedFiles":  [
+                        {
+                            "Path":  "SDK/CloudFiles.cpp",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/CloudFiles.cpp",
+                            "PreparedSHA256":  "0759EA6EA8D6F8DE97D63AD662499DD7C2745BD3F1D01CDB5D7B963543DEDC39",
+                            "SHA256":  "0759EA6EA8D6F8DE97D63AD662499DD7C2745BD3F1D01CDB5D7B963543DEDC39",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/CloudFiles.h",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/CloudFiles.h",
+                            "PreparedSHA256":  "700A298DC9A2154FFAA54BD92114B62EAFC33FA9BAA4AE878B86399D581E0B95",
+                            "SHA256":  "700A298DC9A2154FFAA54BD92114B62EAFC33FA9BAA4AE878B86399D581E0B95",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.cpp",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/License.cpp",
+                            "PreparedSHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "SHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.h",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/License.h",
+                            "PreparedSHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "SHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/LicenseProtocol.h",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/DemoKernel.h",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/DemoKernel.h",
+                            "PreparedSHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "SHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/LicenseProtocol.h",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/Runtime.c",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/Runtime.c",
+                            "PreparedSHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "SHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedSHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "SHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedSHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "SHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "CMakeLists.txt",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/CMakeLists.txt",
+                            "PreparedSHA256":  "5B251D66B827B09C31DF8D302CC7C9453E01660EC3AA5CBE8803CA7BB5590396",
+                            "SHA256":  "5B251D66B827B09C31DF8D302CC7C9453E01660EC3AA5CBE8803CA7BB5590396",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "DemoAbiProbe.cpp",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/DemoAbiProbe.cpp",
+                            "PreparedSHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "SHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        }
+                    ],
+    "ProtectedCurrentReleaseFiles":  [
+                                         {
+                                             "Path":  "SDK/CloudFiles.cpp",
+                                             "SHA256":  "7C32EC47318AD6EAC94E3C98221B632AF6C42704BC27663179F381ED894C914D",
+                                             "Bytes":  33172
+                                         },
+                                         {
+                                             "Path":  "SDK/CloudFiles.h",
+                                             "SHA256":  "700A298DC9A2154FFAA54BD92114B62EAFC33FA9BAA4AE878B86399D581E0B95",
+                                             "Bytes":  2412
+                                         },
+                                         {
+                                             "Path":  "SDK/License.cpp",
+                                             "SHA256":  "32260E1D6735C9C1A408F9668EC6DC9243DD550C896BBA749BEBB554B95F2CFF",
+                                             "Bytes":  18005
+                                         },
+                                         {
+                                             "Path":  "SDK/License.h",
+                                             "SHA256":  "44BCC2A433F620ED0BDA807CF9C08FFD8598CC58F352FCB0F78E63666B685A70",
+                                             "Bytes":  579
+                                         },
+                                         {
+                                             "Path":  "SDK/LicenseProtocol.h",
+                                             "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                                             "Bytes":  1982
+                                         },
+                                         {
+                                             "Path":  "App/Console.cpp",
+                                             "SHA256":  "B03006FE961849C5AFB60137D1B16C12C1E8B7F735D240FF074B92A73C09C976",
+                                             "Bytes":  2125
+                                         },
+                                         {
+                                             "Path":  "App/Main.cpp",
+                                             "SHA256":  "2A7777CBBD11A0B7B4E85D2D0C69C5A86ABC867658FB2DFE713E98D60B326E56",
+                                             "Bytes":  15177
+                                         },
+                                         {
+                                             "Path":  "Installer/Console/Main.cpp",
+                                             "SHA256":  "7137EEB60FF835BF918A157BB9533CF2BAA184670D96191C87DB6C324EB35615",
+                                             "Bytes":  709
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/LicenseProtocol.h",
+                                             "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                                             "Bytes":  1982
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Main.cpp",
+                                             "SHA256":  "12AFEF1F30A7BD40C18B6A51D5ACAEDF36D33C09B113274C64826672E96B71AC",
+                                             "Bytes":  4075
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/RuntimeSetup.cpp",
+                                             "SHA256":  "41EFF1D64CE2E41413F6D9048D43D0F441FC27C49636A7CBE8F89AFFC7AE16AC",
+                                             "Bytes":  17732
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/RuntimeSetup.h",
+                                             "SHA256":  "B600388E307B88C48A1EE32AEB8DF17761269DC538AB6B96AD541CC10B4AE309",
+                                             "Bytes":  215
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Setup.cpp",
+                                             "SHA256":  "92235B8BF09C7906905A63765C7B4CFAF074B8FE96F86321272258A9711637E9",
+                                             "Bytes":  10245
+                                         },
+                                         {
+                                             "Path":  "Installer/UI/Setup.h",
+                                             "SHA256":  "36DF35B6CE1454474EBB9379D31F0461DFC6FDF318D33FDEBD04C49C220957C4",
+                                             "Bytes":  241
+                                         },
+                                         {
+                                             "Path":  "Build.ps1",
+                                             "SHA256":  "0162E7CD77A0A48A7DE7451F798BC8CDF7A52D4BBA93B37AC10C65F41164C20D",
+                                             "Bytes":  1260
+                                         },
+                                         {
+                                             "Path":  "CMakeLists.txt",
+                                             "SHA256":  "DFA2AA8F1F4E7C8134A9FC00C316E385621B771FE947AC8999EF45131FC8AC31",
+                                             "Bytes":  3649
+                                         },
+                                         {
+                                             "Path":  "LICENSE",
+                                             "SHA256":  "941C3003D68166D736E0B15D77846EEE4EE814D7BCE37707AE5BB858D67E867B",
+                                             "Bytes":  1087
+                                         }
+                                     ]
+}

@@ -1,0 +1,23 @@
+﻿{
+    "Schema":  1,
+    "Repo":  "titanfyre/Cloud-Files-SDK",
+    "Success":  true,
+    "KernelProjectCount":  1,
+    "MatchingSdkCompiledAndWholeArchiveLinked":  true,
+    "AbiAndActivationRejectionProbePassed":  true,
+    "BuildScript":  "driver/Build.ps1",
+    "Log":  "obj/DemoSourceBuild/build-transcript.log",
+    "Configuration":  "Release x64",
+    "Toolchain":  "VS2022 x64 MSBuild; MSVC14.32.31326; WDK10.0.26100.0",
+    "Signing":  "Off; EnableTestSign=false; EnableInf2cat=false",
+    "Errors":  [
+
+               ],
+    "Warnings":  [
+
+                 ],
+    "Failure":  null,
+    "DriverInstallationOrLoadingPerformed":  false,
+    "SigningPerformed":  false,
+    "LiveExpiryRebootOrHardwareQualificationPerformed":  false
+}

@@ -1,0 +1,156 @@
+{
+    "Schema":  1,
+    "Repo":  "titanfyre/Cloud-Files-SDK",
+    "Variant":  "Distinct demo-only source preview",
+    "SourcePackageRoot":  "driver/",
+    "MatchingPreviewSdk":  "driver/SDK/",
+    "CurrentPublishedEditionReproduced":  false,
+    "Identity":  "TitanSdkDemoRuntime service and TitanSdkDemoRuntime1 device; optional product driver identities suffixed Demo",
+    "RuntimePolicy":  "3600 seconds per product per Windows boot; resident first-use deadlines; closing clients/function-driver reloads do not renew the budget; no activation acceptance implementation",
+    "Compatibility":  "Public ABI layouts/operation numbers retained; Verification returns unsupported and activation IOCTLs reject requests. Isolated identities create a separate budget domain from the current signed combined runtime.",
+    "CurrentReleaseBoundary":  "Existing top-level SDK/App/Installer and signed binaries are preserved. Current installers and signed SYS/CAT files do not install or qualify this new variant.",
+    "CopiedFiles":  [
+                        {
+                            "Path":  "SDK/CloudFiles.cpp",
+                            "Bytes":  32788,
+                            "SHA256":  "0759EA6EA8D6F8DE97D63AD662499DD7C2745BD3F1D01CDB5D7B963543DEDC39",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/CloudFiles.cpp",
+                            "PreparedSHA256":  "0759EA6EA8D6F8DE97D63AD662499DD7C2745BD3F1D01CDB5D7B963543DEDC39",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/CloudFiles.h",
+                            "Bytes":  2412,
+                            "SHA256":  "700A298DC9A2154FFAA54BD92114B62EAFC33FA9BAA4AE878B86399D581E0B95",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/CloudFiles.h",
+                            "PreparedSHA256":  "700A298DC9A2154FFAA54BD92114B62EAFC33FA9BAA4AE878B86399D581E0B95",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.cpp",
+                            "Bytes":  5989,
+                            "SHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/License.cpp",
+                            "PreparedSHA256":  "55F224875C3E23035DB12C26A3F71E46FA2BB4EA66C36BD45B9C534643C90051",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/License.h",
+                            "Bytes":  511,
+                            "SHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/License.h",
+                            "PreparedSHA256":  "FA72B2D457AB40954A70A7CFF7CB9652E52DABE3ED67EEA64479D354F3308774",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "SDK/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/SDK/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/DemoKernel.h",
+                            "Bytes":  2623,
+                            "SHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/DemoKernel.h",
+                            "PreparedSHA256":  "1BECE1997DAEAF23A4CD252EFB8BA962AFA11ACE1262811F93707B753FE5C4D0",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/LicenseProtocol.h",
+                            "Bytes":  1982,
+                            "SHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/LicenseProtocol.h",
+                            "PreparedSHA256":  "271EDBF8126E3F841589F6B92CD35EAF7021E486CC83BBF85BC05858AD786A9E",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/Runtime.c",
+                            "Bytes":  6537,
+                            "SHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/Runtime.c",
+                            "PreparedSHA256":  "4733CC3CBB9E1AF48360B359AA0EE9449743DECF1F6C221E88627492FEE84604",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.inf",
+                            "Bytes":  734,
+                            "SHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/TitanSdkDemoRuntime.inf",
+                            "PreparedSHA256":  "54BE5479AF1CD7B85FF377AFCCD42D073B43E6DE6C746285444F28CA18204567",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "Bytes":  2455,
+                            "SHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/driver/Runtime/TitanSdkDemoRuntime.vcxproj",
+                            "PreparedSHA256":  "A4283893F2CB0FD10C226B9DA7BCDDFA6DABA0A7B9F39BF320BDB724403D3FDF",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "CMakeLists.txt",
+                            "Bytes":  1003,
+                            "SHA256":  "5B251D66B827B09C31DF8D302CC7C9453E01660EC3AA5CBE8803CA7BB5590396",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/CMakeLists.txt",
+                            "PreparedSHA256":  "5B251D66B827B09C31DF8D302CC7C9453E01660EC3AA5CBE8803CA7BB5590396",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        },
+                        {
+                            "Path":  "DemoAbiProbe.cpp",
+                            "Bytes":  576,
+                            "SHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "PreparedProposalPath":  "Cloud-Files-SDK/DemoAbiProbe.cpp",
+                            "PreparedSHA256":  "47807D12C3AE952BB6B9693BC175651106BFB93898B2183BBB1AB533FA70D927",
+                            "Change":  "Exact prepared demo-only proposal bytes"
+                        }
+                    ],
+    "GeneratedFiles":  [
+                           {
+                               "Path":  "Build.ps1",
+                               "SHA256":  "65356AB817176F09EDBC6FD69DDA96D2EDAEA0DBB8D8C13FC7F407EC89987434",
+                               "Bytes":  4261,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "README.md",
+                               "SHA256":  "9691D540125E2A2A189225925256D708273BB5A6E77D9CDF9A758032A8E95910",
+                               "Bytes":  3990,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "source-boundaries.json",
+                               "SHA256":  "82518EAFC20B2283767A584B398A54A312FCB0E633C16CA31F6C45FC881D51EB",
+                               "Bytes":  12526,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           },
+                           {
+                               "Path":  "validation-report.json",
+                               "SHA256":  "81CB9F1016EAB80C5F8D82CE26CAF308DD9B40880964A5527B08640062461BBE",
+                               "Bytes":  766,
+                               "Origin":  "Generated source-preview build/documentation/validation metadata"
+                           }
+                       ],
+    "SourceBoundaryProof":  "source-boundaries.json",
+    "ProtectedCurrentReleaseFilesChecked":  17,
+    "ProtectedCurrentReleaseFileChanges":  0,
+    "ValidationReport":  "validation-report.json",
+    "CompileLinkAndAbiProbePassed":  true,
+    "KernelProjectsCompiled":  1,
+    "Errors":  0,
+    "Warnings":  0,
+    "DriverInstallationOrLoadingPerformed":  false,
+    "SigningPerformed":  false,
+    "LiveRuntimeHardwareExpiryOrRebootQualificationPerformed":  false,
+    "BinaryOrSensitiveFilesInSourceFolder":  0,
+    "FullActivationImplementationFindings":  0,
+    "SourceTerms":  "See LICENSE.txt and retained upstream/source notices; licence mapping is maintained separately.",
+    "LicenseMappingOwnedSeparately":  [
+                                          "LICENSE.txt",
+                                          "LICENSE-MAP.txt",
+                                          "THIRD-PARTY-LICENSES/"
+                                      ],
+    "MainReadmeChange":  "Added separate demo-only source-preview section; current release instructions retained."
+}

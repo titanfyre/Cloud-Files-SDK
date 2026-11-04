@@ -31,6 +31,29 @@ Microsoft signing covers the driver packages; the user-mode EXEs are separate.
 The supported scope and executed qualification are documented in
 [validation](docs/VALIDATION.md).
 
+<!-- demo-only-source-preview:start -->
+## Separate demo-only source preview
+
+[driver/README.md](driver/README.md) describes a new demo-only source preview,
+including its matching client SDK under [driver/SDK/](driver/SDK/). It uses
+separate Demo driver/runtime identities, retains the one-hour per-product boot
+budget, and contains no full-activation implementation.
+
+This preview differs from the current signed release described here. The
+existing top-level SDK, applications, installers and signed packages continue
+to target the original combined demo/full runtime. Existing installers cannot
+install the new preview, and existing signed SYS/CAT files cannot be reused for
+it. The preview has compile/link and ABI-rejection checks only; new signing and
+runtime qualification remain separate work.
+
+The existing top-level application, SDK, examples and installer remain
+[MIT licensed](LICENSE). Newly published Titan-owned preview source uses the
+[evaluation-source terms](driver/LICENSE.txt). Previously MIT-licensed SDK
+portions and other upstream material retain their existing grants; see the
+[file-by-file licence map](driver/LICENSE-MAP.txt).
+
+<!-- demo-only-source-preview:end -->
+
 ## Install and try
 
 1. Download the complete ZIP from [Releases](https://github.com/titanfyre/Cloud-Files-SDK/releases), extract it and run `CloudFilesStudio.exe --preview` for an offline tour. Preview creates no cloud root and does not open the runtime.
@@ -156,10 +179,12 @@ Use Visual Studio 2022 Desktop C++, CMake and the Windows SDK on x64.
 ```
 
 Outputs are in `obj/Build/bin/Release`. Offline tests use temporary ordinary
-files, never register a Cloud Files root and never install a host driver. Kernel
-sources and signing credentials are excluded from this repository.
+files, never register a Cloud Files root and never install a host driver.
+Kernel source for the current signed/full-activation runtime remains excluded.
+The separate [demo-only source preview](driver/README.md) is included under
+`driver/`. Signing credentials remain excluded from this repository.
 
-Public application/SDK/example/installer source is [MIT licensed](LICENSE).
+Existing top-level application/SDK/example/installer source is [MIT licensed](LICENSE).
 Private runtime binaries have separate evaluation/OEM terms. Use only on systems
 and data you own or administer with authorization. You are responsible for lawful
 use, data handling and application access keys. Software is supplied without

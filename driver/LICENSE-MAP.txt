@@ -1,0 +1,56 @@
+Cloud-Files-SDK distinct demo-only driver source - file-level license map
+
+Paths are relative to driver/. This is the distinct demo-only preview,
+not a source reproduction of the currently signed combined runtime.
+
+LicenseRef-Titan-Evaluation-1.0 denotes the separate Titan Demo Driver
+Source Evaluation License, version 1.0, supplied in LICENSE.txt.
+Only the rows expressly marked with that identifier receive those terms.
+The repository root LICENSE and existing SDK/App/Installer remain unchanged.
+
+ALL SDK/** files retain MIT, including the isolated demo SDK changes.
+Runtime/LicenseProtocol.h and the separately listed USB shared protocol/
+validator files retain their prior MIT permissions too. Custom production,
+commercial, modification, redistribution, timer and authorization restrictions
+do not apply to any whole file marked MIT.
+
+Complete retained MIT license: THIRD-PARTY-LICENSES/MIT-Public-SDK.txt
+No Microsoft sample-derived source or MS-PL notice was identified in this tree.
+Retained-Provenance rows are package records; preserve their attribution
+and source-boundary evidence. This map and the license texts may be
+reproduced with the source.
+
+MIT:
+  Runtime/LicenseProtocol.h
+    Prior public source: ../SDK/LicenseProtocol.h
+    Evidence: Identical to the prior public MIT protocol header after line-ending normalization.
+  SDK/CloudFiles.cpp
+    Prior public source: ../SDK/CloudFiles.cpp
+    Evidence: Existing public MIT SDK source; demo-specific changes preserve the MIT grant.
+  SDK/CloudFiles.h
+    Prior public source: ../SDK/CloudFiles.h
+    Evidence: Existing public MIT SDK source; demo-specific changes preserve the MIT grant.
+  SDK/License.cpp
+    Prior public source: ../SDK/License.cpp
+    Evidence: Existing public MIT SDK source; demo-specific changes preserve the MIT grant.
+  SDK/License.h
+    Prior public source: ../SDK/License.h
+    Evidence: Existing public MIT SDK source; demo-specific changes preserve the MIT grant.
+  SDK/LicenseProtocol.h
+    Prior public source: ../SDK/LicenseProtocol.h
+    Evidence: Existing public MIT SDK source; demo-specific changes preserve the MIT grant.
+
+LicenseRef-Titan-Evaluation-1.0:
+  Build.ps1
+  CMakeLists.txt
+  DemoAbiProbe.cpp
+  README.md
+  Runtime/DemoKernel.h
+  Runtime/Runtime.c
+  Runtime/TitanSdkDemoRuntime.inf
+  Runtime/TitanSdkDemoRuntime.vcxproj
+
+Retained-Provenance:
+  source-boundaries.json
+  source-manifest.json
+  validation-report.json

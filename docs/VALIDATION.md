@@ -1,5 +1,10 @@
 # Validation and boundaries
 
+This document describes the current signed demo/full implementation and its
+release qualification. The separate [demo-only source preview](../driver/README.md)
+uses new identities and has compile/link plus ABI-rejection checks only.
+The runtime and hardware results below do not qualify that new preview.
+
 Cloud Files SDK 0.1.1 targets Windows 10 version 2004/build 19041+ x64 and Windows 11 x64 using documented
 CFAPI and built-in cldflt. It does not contain a custom Cloud Files filter.
 
