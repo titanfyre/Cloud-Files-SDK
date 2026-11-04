@@ -142,6 +142,10 @@ backend/application integration and qualification.
 
 ## Build
 
+Application sources are in `App/`, the C++ SDK is in `SDK/`, and examples are in
+`Examples/`. UI and console installer sources are in `Installer/UI/` and
+`Installer/Console/`.
+
 Use Visual Studio 2022 Desktop C++, CMake and the Windows SDK on x64.
 
 ```powershell
