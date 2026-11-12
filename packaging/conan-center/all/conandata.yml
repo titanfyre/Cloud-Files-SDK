@@ -1,0 +1,4 @@
+sources:
+  "0.1.1":
+    url: https://github.com/titanfyre/Cloud-Files-SDK/releases/download/sdk-v0.1.1/cloud-files-sdk-sdk-0.1.1.tar.gz
+    sha256: ea17e34fb656e40759ec9e0143f5147faffdf5ccb6c6063826b1920c2dd21e31
