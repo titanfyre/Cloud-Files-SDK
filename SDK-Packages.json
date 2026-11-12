@@ -1,0 +1,21 @@
+{
+  "project": "Cloud-Files-SDK",
+  "packages": [
+    {
+      "directory": "Cloud-Files-SDK-CPP-vcpkg",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "Cloud-Files-SDK-CPP-conan",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    },
+    {
+      "directory": "Cloud-Files-SDK-CPP-nuget",
+      "central_registry_status": "not_published",
+      "distribution": "GitHub source and downloadable release artifacts"
+    }
+  ],
+  "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented."
+}

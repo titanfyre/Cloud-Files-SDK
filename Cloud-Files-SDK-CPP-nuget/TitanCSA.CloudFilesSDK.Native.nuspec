@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<package><metadata><id>TitanCSA.CloudFilesSDK.Native</id><version>0.1.1</version><authors>TitanCSA</authors><description>Public Windows x64 C++ source SDK for Cloud-Files-SDK. No kernel driver or installer is included.</description><readme>README.md</readme><license type="expression">MIT</license><repository type="git" url="https://github.com/titanfyre/Cloud-Files-SDK" /></metadata></package>
