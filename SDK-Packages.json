@@ -3,99 +3,63 @@
   "packages": [
     {
       "directory": "packaging/native",
-      "build_system": "CMake",
-      "registry_recipes": {
-        "vcpkg": "packaging/native/portfile.cmake",
-        "Conan": "packaging/native/conanfile.py",
-        "NuGet": [
-          "packaging/native/TitanCSA.CloudFilesSDK.Native.nuspec"
-        ]
-      },
-      "distribution": "Shared native source; registry publication is reported separately below"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/packaging/native",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-C-ffi",
-      "distribution": "Native C ABI adapter to the original project SDK",
-      "dll": "CloudFilesSDKJsonSDK.dll",
-      "api_prefix": "cloud_files_sdk_json_"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-C-ffi",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Python-pypi",
-      "language": "Python",
-      "registry": "pypi",
-      "name": "cloud-files-sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Python-pypi",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Ruby-rubygems",
-      "language": "Ruby",
-      "registry": "rubygems",
-      "name": "cloud-files-sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Ruby-rubygems",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Go-modules",
-      "language": "Go",
-      "registry": "modules",
-      "name": "cloud-files-sdk",
-      "version": "v1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Rust-cargo",
-      "language": "Rust",
-      "registry": "cargo",
-      "name": "cloud-files-sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Rust-cargo",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Java-maven",
-      "language": "Java",
-      "registry": "maven",
-      "name": "cloud-files-sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Java-maven",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-Dart-pub-dev",
-      "language": "Dart",
-      "registry": "pub-dev",
-      "name": "cloud_files_sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-Dart-pub-dev",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-JavaScript-npm",
-      "language": "JavaScript",
-      "registry": "npm",
-      "name": "cloud-files-sdk",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-JavaScript-npm",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-NET-nuget",
-      "language": "NET",
-      "registry": "nuget",
-      "name": "CloudFilesSDK.SDK",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-NET-nuget",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "Cloud-Files-SDK-PowerShell-gallery",
-      "language": "PowerShell",
-      "registry": "gallery",
-      "name": "CloudFilesSDK",
-      "version": "1.0.0",
-      "distribution": "Documented native SDK; registry receipt tracked independently"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/Cloud-Files-SDK-PowerShell-gallery",
+      "location": "central_sdk_repository"
     },
     {
       "directory": "packaging/conda",
-      "language": "Python",
-      "registry": "conda-forge",
-      "distribution": "Source-build recipe; official review and custom channel availability reported separately"
+      "source_url": "https://github.com/TitanCSA/sdk-packages/tree/main/projects/Cloud-Files-SDK/packaging/conda",
+      "location": "central_sdk_repository"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
@@ -185,8 +149,7 @@
       "recipe_format": "v1",
       "v1_source_build_tests_passed": true,
       "personal_maintainer_confirmation_required": true,
-      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update",
-      "github_directory": "packaging/conda"
+      "official_review_status": "v1_recipe_prepared_requires_submission_or_existing_pr_update"
     },
     "Rust/cargo": {
       "status": "published_install_verified",
@@ -315,5 +278,8 @@
       "repository": "https://github.com/TitanCSA/cloud-files-sdk-php"
     }
   },
-  "coverage_note": "Missing language bindings are explicitly listed. Published GitHub archives are distinct from central registry acceptance. Local organized SDK folders are retained."
+  "coverage_note": "SDK source directories moved to central repository. Product source, prior tags and original releases are separate.",
+  "central_sdk_repository": "https://github.com/TitanCSA/sdk-packages",
+  "central_sdk_directory": "projects/Cloud-Files-SDK",
+  "central_sdk_source_commit": "5da8260cfafc42181dbcca6196868d049f2b3ebb"
 }
