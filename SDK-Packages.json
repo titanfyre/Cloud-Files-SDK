@@ -12,6 +12,76 @@
         ]
       },
       "distribution": "Shared native source; registry publication is reported separately below"
+    },
+    {
+      "directory": "Cloud-Files-SDK-C-ffi",
+      "distribution": "Native C ABI adapter to the original project SDK",
+      "dll": "CloudFilesSDKJsonSDK.dll",
+      "api_prefix": "cloud_files_sdk_json_"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Python-pypi",
+      "language": "Python",
+      "registry": "pypi",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Ruby-rubygems",
+      "language": "Ruby",
+      "registry": "rubygems",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Go-modules",
+      "language": "Go",
+      "registry": "modules",
+      "name": "cloud-files-sdk",
+      "version": "v1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Rust-cargo",
+      "language": "Rust",
+      "registry": "cargo",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Java-maven",
+      "language": "Java",
+      "registry": "maven",
+      "name": "cloud-files-sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-Dart-pub-dev",
+      "language": "Dart",
+      "registry": "pub-dev",
+      "name": "cloud_files_sdk",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-NET-nuget",
+      "language": "NET",
+      "registry": "nuget",
+      "name": "CloudFilesSDK.SDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
+    },
+    {
+      "directory": "Cloud-Files-SDK-PowerShell-gallery",
+      "language": "PowerShell",
+      "registry": "gallery",
+      "name": "CloudFilesSDK",
+      "version": "1.0.0",
+      "distribution": "Documented native SDK; registry receipt tracked independently"
     }
   ],
   "notes": "Registry accounts or community acceptance are separate. No missing language binding is represented as implemented.",
