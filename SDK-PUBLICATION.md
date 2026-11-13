@@ -5,21 +5,21 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Target | Status | Package / documentation |
 | --- | --- | --- |
 | CPP/vcpkg | published_custom_registry | cloud-files-sdk |
-| CPP/conan | public_recipe_builds_locally |  |
+| CPP/conan | public_recipe_builds_locally |  [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | Cloud-Files-SDK.Native |
-| NET/nuget | binding_not_implemented |  |
-| Python/pypi | binding_not_implemented |  |
-| Python/conda-forge | binding_not_implemented |  |
-| Rust/cargo | binding_not_implemented |  |
-| JavaScript/npm | binding_not_implemented |  |
-| Java/maven | binding_not_implemented |  |
-| Java/jitpack | binding_not_implemented |  |
-| Go/modules | binding_not_implemented |  |
-| Go/pkg-go-dev | binding_not_implemented |  |
-| PowerShell/gallery | binding_not_implemented |  |
-| Dart/pub-dev | binding_not_implemented |  |
-| Ruby/rubygems | binding_not_implemented |  |
-| PHP/packagist | binding_not_implemented |  |
+| NET/nuget | built_verified_publication_on_hold_by_owner | CloudFilesSDK.SDK [Source](Cloud-Files-SDK-NET-nuget/) |
+| Python/pypi | built_fixture_and_production_verified | cloud-files-sdk [Source](Cloud-Files-SDK-Python-pypi/) |
+| Python/conda-forge | built_tested_requires_source_publication_and_official_review | cloud-files-sdk [Source](packaging/conda/) |
+| Rust/cargo | published_install_verified | [cloud-files-sdk](https://crates.io/crates/cloud-files-sdk) [Source](Cloud-Files-SDK-Rust-cargo/) |
+| JavaScript/npm | awaiting_browser_publication_authentication | [cloud-files-sdk](https://www.npmjs.com/package/cloud-files-sdk) [Source](Cloud-Files-SDK-JavaScript-npm/) |
+| Java/maven | published_install_verified | [cloud-files-sdk](https://central.sonatype.com/artifact/io.github.titancsa/cloud-files-sdk/1.0.0) [Source](Cloud-Files-SDK-Java-maven/) |
+| Java/jitpack | published_install_verified | [cloud-files-sdk](https://jitpack.io/#titanfyre/Cloud-Files-SDK/java-sdk-v1.0.0) [Source](Cloud-Files-SDK-Java-maven/) |
+| Go/modules | published_install_verified | [cloud-files-sdk](https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0) [Source](Cloud-Files-SDK-Go-modules/) |
+| Go/pkg-go-dev | indexed_verified | [Documentation](https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0) |
+| PowerShell/gallery | published_install_verified | [CloudFilesSDK](https://www.powershellgallery.com/packages/CloudFilesSDK/1.0.0) [Source](Cloud-Files-SDK-PowerShell-gallery/) |
+| Dart/pub-dev | built_fixture_and_production_verified | cloud_files_sdk [Source](Cloud-Files-SDK-Dart-pub-dev/) |
+| Ruby/rubygems | published_install_verified | [cloud-files-sdk](https://rubygems.org/gems/cloud-files-sdk) [Source](Cloud-Files-SDK-Ruby-rubygems/) |
+| PHP/packagist | composer_source_and_tag_published | [titancsa/cloud-files-sdk](https://packagist.org/packages/titancsa/cloud-files-sdk) |
 
 Native SDK source and CMake/Conan/vcpkg/NuGet recipes share [`packaging/native`](packaging/native/LAYOUT.md). Previous release archives and tags remain unchanged.
 
