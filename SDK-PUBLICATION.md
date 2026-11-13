@@ -11,7 +11,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | Python/pypi | built_fixture_and_production_verified | cloud-files-sdk [Source](Cloud-Files-SDK-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [cloud-files-sdk](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [cloud-files-sdk](https://crates.io/crates/cloud-files-sdk) [Source](Cloud-Files-SDK-Rust-cargo/) |
-| JavaScript/npm | awaiting_browser_publication_authentication | [cloud-files-sdk](https://www.npmjs.com/package/cloud-files-sdk) [Source](Cloud-Files-SDK-JavaScript-npm/) |
+| JavaScript/npm | registry_publication_requires_action | [cloud-files-sdk](https://www.npmjs.com/package/cloud-files-sdk) [Source](Cloud-Files-SDK-JavaScript-npm/) |
 | Java/maven | published_install_verified | [cloud-files-sdk](https://central.sonatype.com/artifact/io.github.titancsa/cloud-files-sdk/1.0.0) [Source](Cloud-Files-SDK-Java-maven/) |
 | Java/jitpack | published_install_verified | [cloud-files-sdk](https://jitpack.io/#titanfyre/Cloud-Files-SDK/java-sdk-v1.0.0) [Source](Cloud-Files-SDK-Java-maven/) |
 | Go/modules | published_install_verified | [cloud-files-sdk](https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0) [Source](Cloud-Files-SDK-Go-modules/) |
