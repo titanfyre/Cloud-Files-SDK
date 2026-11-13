@@ -1,8 +1,6 @@
 # Cloud-Files-SDK .NET8 SDK
 
-Package ID `CloudFilesSDK.SDK`. NuGet upload remains on hold at owner request.
-
-```csharp
+Package ID `CloudFilesSDK.SDK`. ```csharp
 using var client=new TitanCSA.Products.CloudFilesSDK.Client();
 string statusJson=client.Call("status", "{}");
 ```

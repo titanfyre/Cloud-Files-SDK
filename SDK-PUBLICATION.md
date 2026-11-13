@@ -7,7 +7,7 @@ Current source layout and registry coverage. A GitHub download is distinct from 
 | CPP/vcpkg | published_custom_registry | cloud-files-sdk |
 | CPP/conan | published_custom_source_index | [cloud-files-sdk](https://github.com/TitanCSA/sdk-packages/tree/089bc73095aa8eda89bacbe10d0b9e58394b0207/conan-index) [Source](packaging/native/) |
 | CPP/nuget | paused_pending_owner_email_confirmation | Cloud-Files-SDK.Native |
-| NET/nuget | built_verified_publication_on_hold_by_owner | CloudFilesSDK.SDK [Source](Cloud-Files-SDK-NET-nuget/) |
+| NET/nuget | built_verified_requires_trusted_publishing_policy | CloudFilesSDK.SDK [Source](Cloud-Files-SDK-NET-nuget/) |
 | Python/pypi | built_fixture_and_production_verified | cloud-files-sdk [Source](Cloud-Files-SDK-Python-pypi/) |
 | Python/conda-forge | custom_channel_install_verified_requires_conda_forge_review | [cloud-files-sdk](https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel) [Source](packaging/conda/) |
 | Rust/cargo | published_install_verified | [cloud-files-sdk](https://crates.io/crates/cloud-files-sdk) [Source](Cloud-Files-SDK-Rust-cargo/) |
