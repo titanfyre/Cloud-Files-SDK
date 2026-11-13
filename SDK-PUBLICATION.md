@@ -6,24 +6,24 @@ Choisis le paquet a installer. Installe son outil habituel (Node.js/npm, Python/
 
 Les SDK natifs sont destines a Windows x64. Java utilise Java22+ (Kotlin passe par le SDK Java). Flutter utilise le SDK Dart ; le chargement de la DLL doit etre configure dans l application. AutoHotInterceptor .NET utilise .NET Framework4.8.
 
-| Paquet | Registre | Disponibilite | Installation / utilisation |
-| --- | --- | --- | --- |
-| `cloud-files-sdk` | vcpkg | Registre TitanCSA disponible (configuration ci-dessous) | `vcpkg install cloud-files-sdk:x64-windows` |
-| `cloud-files-sdk` | Conan | Registre TitanCSA disponible (configuration ci-dessous) | `conan install --requires=cloud-files-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
-| `Cloud-Files-SDK.Native` | NuGet | Publie et verifie | `Install-Package Cloud-Files-SDK.Native -Version 0.1.1` |
-| `CloudFilesSDK.SDK` | NuGet | Publie et verifie | `dotnet add package CloudFilesSDK.SDK --version 1.0.0` |
-| `cloud_files_sdk` | PyPI | Pas encore disponible / validation en cours | Commande prevue apres publication : `python -m pip install cloud-files-sdk==1.0.0` |
-| `cloud-files-sdk` | Conda | Canal TitanCSA disponible ; acceptation conda-forge encore en attente | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge cloud-files-sdk` |
-| `cloud_files_sdk` | crates.io | Publie et verifie | `cargo add cloud-files-sdk@1.0.0` |
-| `cloud_files_sdk` | npm | Pas encore disponible / validation en cours | Commande prevue apres publication : `npm install cloud-files-sdk@1.0.0` |
-| `io.github.titancsa:cloud-files-sdk` | Maven Central | Publie et verifie | `io.github.titancsa:cloud-files-sdk:1.0.0 (pom.xml / Gradle)` |
-| `com.github.titanfyre:Cloud-Files-SDK` | JitPack | Publie et verifie | `com.github.titanfyre:Cloud-Files-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
-| `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | Go Modules | Publie et verifie | `go get github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
-| `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | pkg.go.dev | Publie et verifie | `Documentation : https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
-| `cloud_files_sdk` | PowerShell Gallery | Publie et verifie | `Install-Module CloudFilesSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| `cloud_files_sdk` | pub.dev | Pas encore disponible / validation en cours | Commande prevue apres publication : `dart pub add cloud_files_sdk:1.0.0` |
-| `cloud_files_sdk` | RubyGems | Publie et verifie | `gem install cloud-files-sdk -v 1.0.0` |
-| `cloud_files_sdk` | Packagist | Pas encore disponible / validation en cours | Commande prevue apres publication : `composer require titancsa/cloud-files-sdk:1.0.0` |
+| Registre | Paquet | Installation / utilisation |
+| --- | --- | --- |
+| vcpkg | `cloud-files-sdk` | `vcpkg install cloud-files-sdk:x64-windows` |
+| Conan | `cloud-files-sdk` | `conan install --requires=cloud-files-sdk/0.1.1 -r titancsa --build=missing -s compiler.cppstd=17` |
+| NuGet | `Cloud-Files-SDK.Native` | `Install-Package Cloud-Files-SDK.Native -Version 0.1.1` |
+| NuGet | `CloudFilesSDK.SDK` | `dotnet add package CloudFilesSDK.SDK --version 1.0.0` |
+| PyPI | `cloud_files_sdk` | Commande prevue apres publication : `python -m pip install cloud-files-sdk==1.0.0` |
+| Conda | `cloud-files-sdk` | `conda install --override-channels -c https://raw.githubusercontent.com/TitanCSA/sdk-packages/089bc73095aa8eda89bacbe10d0b9e58394b0207/conda-channel -c conda-forge cloud-files-sdk` (canal TitanCSA) |
+| crates.io | `cloud_files_sdk` | `cargo add cloud-files-sdk@1.0.0` |
+| npm | `cloud_files_sdk` | Commande prevue apres publication : `npm install cloud-files-sdk@1.0.0` |
+| Maven Central | `io.github.titancsa:cloud-files-sdk` | `io.github.titancsa:cloud-files-sdk:1.0.0 (pom.xml / Gradle)` |
+| JitPack | `com.github.titanfyre:Cloud-Files-SDK` | `com.github.titanfyre:Cloud-Files-SDK:java-sdk-v1.0.0 (avec le depot JitPack)` |
+| Go Modules | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `go get github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
+| pkg.go.dev | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
+| PowerShell Gallery | `cloud_files_sdk` | `Install-Module CloudFilesSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
+| pub.dev | `cloud_files_sdk` | Commande prevue apres publication : `dart pub add cloud_files_sdk:1.0.0` |
+| RubyGems | `cloud_files_sdk` | `gem install cloud-files-sdk -v 1.0.0` |
+| Packagist | `cloud_files_sdk` | Commande prevue apres publication : `composer require titancsa/cloud-files-sdk:1.0.0` |
 
 ## Configuration vcpkg et Conan
 
