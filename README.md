@@ -200,7 +200,7 @@ Les sources, licences, guides API et exemples sont regroupes dans [le depot SDK 
 | Go Modules | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `go get github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
 | pkg.go.dev | `github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules` | `Documentation : https://pkg.go.dev/github.com/titanfyre/Cloud-Files-SDK/Cloud-Files-SDK-Go-modules@v1.0.0` |
 | PowerShell Gallery | `CloudFilesSDK` | `Install-Module CloudFilesSDK -RequiredVersion 1.0.0 -Scope CurrentUser` |
-| pub.dev | `cloud_files_sdk` | Commande prevue apres publication : `dart pub add cloud_files_sdk:1.0.0` |
+| pub.dev | `cloud_files_sdk` | `dart pub add cloud_files_sdk:1.0.0` |
 | RubyGems | `cloud-files-sdk` | `gem install cloud-files-sdk -v 1.0.0` |
 | Packagist | `titancsa/cloud-files-sdk` | `composer require titancsa/cloud-files-sdk:1.0.0` |
 
